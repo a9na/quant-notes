@@ -1,0 +1,20 @@
+Chapter 1: Introduction from The Elements of Statistical Learning.
+
+Core Concepts of Statistical Learning
+
+• Purpose of Learning: Statistical learning extracts patterns from data to make predictions or understand data structure. It plays a central role in statistics, data mining, artificial intelligence, finance, and engineering.
+• Outcomes and Features: A typical problem involves predicting an outcome measurement based on a set of input features. Outcomes are either quantitative (like a stock price) or categorical (like a medical diagnosis).
+• Training and Prediction: Models are built using a training set where both outcomes and features are observed. A good learner uses this training data to accurately predict outcomes for new, unseen objects.
+
+Supervised vs. Unsupervised Learning
+
+• Supervised Learning: Both input features and outcome measurements are present in the training data. The outcome variable guides the learning process to predict future results.
+• Regression vs. Classification: Supervised problems are split by outcome type. Regression predicts quantitative outcomes, while classification predicts categorical classes.
+• Unsupervised Learning: Only input features are observed, with no outcome measurements available. The goal is to describe how the data are organized, grouped, or clustered.
+
+Key Examples in the Book
+
+• Email Spam (Classification): This dataset contains 4,601 emails with 57 word and character frequency features. The goal is to classify messages as spam or good email while avoiding false positives that block valid mail.
+• Prostate Cancer (Regression): This study examines 97 men to predict log prostate specific antigen (lpsa) levels from eight clinical measures. Because the outcome is a continuous number, this is a regression task.
+• Handwritten Digit Recognition (Classification): This task uses 16x16 grayscale pixel maps from U.S. postal ZIP codes to identify digits from 0 to 9. High accuracy is required for automated mail sorting, so uncertain digits can be routed to a "don't know" pile for human review.
+• DNA Expression Microarrays (Unsupervised): This dataset measures expression levels across 6,830 genes and 64 tumor samples. Researchers treat samples as points in high-dimensional space to cluster similar cancers and gene profiles together.
